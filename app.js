@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 
-app.get('/probando',(req,res) =>{
+app.get('*',(req,res) =>{
     console.log("El api esta corriendo bien ! =)");
     return res.status(200).send(`
     <h1>Super Market El Tiempo</h1>
