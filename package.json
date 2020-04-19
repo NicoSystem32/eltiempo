@@ -4,7 +4,7 @@
   "description": "Prueba tecnica para el tiempo Nicolas Florez",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nicolas Florez",
